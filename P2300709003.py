@@ -90,7 +90,7 @@ if __name__ == "__main__":
     sampling_time = 0.1
 
     time, velocities, distances = simulate_motion(mass, velocity, road_type, wet_dry, inclination, sampling_time)
-    plot_diagrams(time, velocities, distances, "test.pdf")
+    plot_diagrams(time, velocities, distances, "BrakingTest.pdf")
   
     
 
